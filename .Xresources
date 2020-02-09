@@ -1,3 +1,4 @@
+! Theme
 URxvt.font: xft:monospace:size=12
 URxvt.scrollBar: false
 Xft.dpi:                        85
@@ -11,7 +12,7 @@ URxvt.iso14755_52:              false
 URxvt*geometry:                 65x17
 URxvt*loginShell:               true
 URxvt.internalBorder:           35
-URxvt.perl-ext-common:          default,clipboard
+URxvt.perl-ext-common:          default,clipboard, matcher
 URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
 URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
 URxvt.clipboard.autocopy:       true
